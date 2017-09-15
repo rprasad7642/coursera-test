@@ -105,7 +105,7 @@ function buildAndShowHomeHTML (categories) {
       var index = Math.floor((Math.random() * categories.length) + 1);
 
       console.log(index);
-      console.log(categories.lenght);
+      console.log(categories.length);
 
       var categoryShortName = categories[index].short_name;
 
@@ -122,7 +122,7 @@ function buildAndShowHomeHTML (categories) {
       //
 
       console.log(homeHtml);
-      
+
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "{" + categoryShortName + "}");
 
       console.log(homeHtmlToInsertIntoMainPage);
